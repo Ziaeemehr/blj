@@ -1,0 +1,6 @@
+#!/usr/bin/gnuplot
+set term png large
+set output "Ekin.png"
+set title "Ekin"
+
+plot 'global.mon' u 5 w p ps 0.5 pt 7 title "Ekin"

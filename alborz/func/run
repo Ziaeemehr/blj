@@ -1,0 +1,7 @@
+#!/bin/sh
+#SBATCH --job-name="train"
+#SBATCH -n 1
+#SBATCH --output=bachoutput
+
+~/MH/MHM_over_files/MHMoF.x >o1
+#!~/Alborz/alborz >o1

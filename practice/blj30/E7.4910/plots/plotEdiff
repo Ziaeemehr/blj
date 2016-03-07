@@ -1,0 +1,8 @@
+#! /usr/bin/gnuplot
+#set terminal postscript eps enhanced
+#set term postscript eps monochrome dashed 'Times-Roman' 28
+set term png large
+set output "Ediff.png"
+set title "Ediff"
+
+plot 'global.mon' u 4 w p ps 0.5 pt 7 title "Ediff"

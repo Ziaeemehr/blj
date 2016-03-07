@@ -1,0 +1,11 @@
+#1st line comment
+#2nd line comment
+#3rd line comment
+ 
+ 
+c5=bemoved
+
+1  bulk  1
+   12.0  0.0 12.0
+    0.0  0.0 12.0
+   LA     2.0         2.0         2.0        TTT
